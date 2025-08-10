@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+     <!-- Heading Tags, Paragraph, Inline Tags -->
+    <h1>This is heading 1</h1>
+    <p>This is some text.</p>
+    <br>
+    <h2>This is heading 2</h2>
+    <p>This is some other text.</p>
+    <br>
+    <span>Hello World</span>
+    <br>
+    <a href="https://www.w3schools.com">Visit W3Schools</a>
+    <br>
+
+    <!-- HTML Lists -->
+     <ul style="list-style-type:square;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+    </ul> 
+    <br>  
+
+    <ol type="I">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+    </ol>
+    <br>
+
+    <dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+    </dl>
+    <br>
+
+    <!-- Links and Anchor Tags -->
+    <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+    <br>
+    <a href="mailto:someone@example.com">Send email</a>
+    <br>
+
+    <!-- Images in HTML -->
+     <img src="/test_web/assests/img_girl.jpg" alt="Image" style="width:420px; height:420px;">
+     <br>
+
+    <!-- HTML Tables -->
+    <table>
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+    </tr>
+    </table>  
+
+    <!-- Block-Level vs. Inline Elements -->
+     <!-- Block-Level -->
+     <p>Hello World</p>
+     <div>Hello World</div>
+
+     <!-- Inline Elements -->
+     <span>Hello World</span>
+
+     <p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facere cumque voluptatum inventore perspiciatis totam error! Eligendi necessitatibus perspiciatis quis, modi nam illum minima beatae praesentium et dignissimos deleniti a vero ea! Mollitia blanditiis autem beatae iste nesciunt maxime porro praesentium suscipit quae sit. Voluptate consequuntur provident eum, magnam quaerat sunt distinctio, a vitae facilis exercitationem numquam reprehenderit excepturi odio fugiat sequi autem dolor deleniti esse, cum culpa ipsa. Exercitationem aperiam facere voluptatum natus fugiat aspernatur omnis esse!</p>
+
+    <!-- Forms -->
+    <form action="/action_page.php" method="post">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="First name"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Last name"><br><br>
+        
+
+        <p>Choose your favorite Web language:</p>
+
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+        <br>
+        <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+    </select>
+    <br>   
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd">
+        <br> <br>
+        <input type="submit" value="Submit">
+        <br> <br>
+
+        <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+    </form>
+    
+     <!-- <h1>Login Form</h1> -->
+    <!-- <form action="" method="post">
+
+        <label for="wife">Username:</label>
+        <input type="text" id="wife" placeholder="enter your username here..." name="lalala">
+
+        <br><br>
+
+        <label for="husband">Password:</label>
+        <input type="password" id="husband" name="password">
+
+        <br><br>
+
+        <label for="countryselect">
+            Choose Country:
+        </label>
+        <select id="countryselect">
+            <option value="">Bangladesh</option>
+            <option value="">China</option>
+            <option value="">Thiland</option>
+            <option value="">Indonesia</option>
+            <option value="">Malaysia</option>
+        </select>
+
+        <br><br>
+
+        <p>Choose Gender:</p>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender">
+        <label for="other">Other</label>
+
+
+        <p>Hobbies</p>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label><br>
+
+        <input type="checkbox" id="gaming" name="hobbies" value="gaming">
+        <label for="gaming">Gaming</label><br>
+
+        <input type="checkbox" id="cooking" name="hobbies" value="cooking">
+        <label for="cooking">Cooking</label>
+
+    </form> -->
+
+    <!-- <form method="post">
+
+        Username*:
+        <input type="text" name="username" required>
+
+        <br><br>
+
+        Password:
+        <input type="password" name="password" required>
+
+        <br><br>
+
+        <input type="submit" value="Login">
+
+    </form>
+
+    <h1 id="mainheading" title="This is a main heading">Main</h1> -->
+    <!-- <h2 id="subheading"></h2> WRONG -->
+
+</body>
+</html>
