@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping Cart</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="src/output.css">
+</head>
+<body class="bg-gray-100 min-h-screen p-6">
+
+  <div class="max-w-6xl mx-auto">
+    <h1 class="text-3xl font-bold text-center mb-6">🛒 Simple Shopping Cart</h1>
+
+    <!-- Product List -->
+    <h2 class="text-2xl font-semibold mb-4">Products</h2>
+    <div id="product-list" class="grid grid-cols-1 md:grid-cols-3 gap-6"></div>
+
+    <!-- Cart Section -->
+    <h2 class="text-2xl font-semibold mt-10 mb-4">Your Cart (<span id="cart-count">0</span>)</h2>
+    <div id="cart" class="bg-white p-4 rounded shadow-md">
+      <div id="cart-items" class="space-y-4"></div>
+      <p class="text-lg font-bold mt-4">Total: $<span id="cart-total">0</span></p>
+
+      <!-- Promo Code Section -->
+      <div class="mt-4">
+        <input type="text" id="promo-code" placeholder="Enter promo code"
+          class="border rounded p-2 w-2/3">
+        <button id="apply-promo"
+          class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+          Apply
+        </button>
+        <p id="promo-msg" class="mt-2 text-sm font-medium"></p>
+      </div>
+
+      <!-- Cart Buttons -->
+      <div class="mt-4 flex gap-3">
+        <button id="clear-cart" class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">
+          Clear Cart
+        </button>
+        <button id="checkout" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+          Checkout
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS Files -->
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/ui.js"></script>
+</body>
+</html>
