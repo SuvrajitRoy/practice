@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Suvro",
+    "email": "s@gmail.com",
+    "phone": 1675086158,
+    "address": "Lakshmipur"
+  },
+  {
+    "name": "pompa",
+    "email": "p@gmail.com",
+    "phone": 1680190667,
+    "address": "Lakshmipur"
+  },
+  {
+    "name": "Alice Smith",
+    "email": "alice@example.com",
+    "phone": 1711223344,
+    "address": "12/A Lake View, Dhaka"
+  },
+  {
+    "name": "John Doe",
+    "email": "john@example.com",
+    "phone": 1911223344,
+    "address": "15/B Road 10, Sylhet"
+  }
+]
